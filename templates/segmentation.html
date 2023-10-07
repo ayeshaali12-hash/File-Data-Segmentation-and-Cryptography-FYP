@@ -1,0 +1,10 @@
+<html>
+  <form method="POST" action="{% url 'segmentation_process' %}">
+    {% csrf_token %}
+    <input type="hidden" name="file_id" value="{{id}}" />
+    <label>Enter how do you want your data to be stored:</label>
+    <br><label>Non Encrypted</label><input name="encrypted" type="radio", value="0"/>
+    <br><label>Encrypted</label><input name="encrypted" type="radio", value="1"/>
+      <input type="submit" name="submit" value="submit" />
+  </form>
+</html>

@@ -1,0 +1,58 @@
+ /* Style buttons */
+.btndl {
+  background-color: forestgreen;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 0.8rem ;
+  width:120px;
+  height:25py;
+  border-radius:10px;
+
+}
+
+/* Darker background on mouse-over */
+.btndl:hover {
+  background-color:  	darkgreen;
+   color: inherit;;
+ text-decoration: none;
+}
+
+ /* Style buttons */
+.btndel {
+  background-color: firebrick;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 0.8rem ;
+  width:120px;
+  height:25py;
+  border-radius:10px;
+
+}
+
+/* Darker background on mouse-over */
+.btndel:hover {
+  background-color:  	red;
+   text-decoration: none;
+}
+
+.btnsuc {
+  background-color:dodgerblue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 0.8rem ;
+  width:130px;
+  height:25py;
+  border-radius:10px;
+
+}
+
+/* Darker background on mouse-over */
+.btnsuc:hover {
+  background-color:  	royalblue;
+}
